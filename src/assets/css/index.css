@@ -1,0 +1,32 @@
+a:link,a:visited,a:active{
+	color:black;
+}
+a{
+	text-decoration: none;
+}
+body,p,ul,li{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #05051d;
+}
+text{
+	fill:white;
+	transition: fill 0.5s ease 0s;
+}
+circle{
+	transition: all 1s ease 0s,fill 0.5s ease 0s;
+}
+.enter{
+	transition:all 0.5s ease;
+}
+.enter:hover{
+	cursor: pointer;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
